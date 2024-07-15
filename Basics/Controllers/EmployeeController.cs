@@ -1,12 +1,13 @@
+using Basics.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Basics.Controllers
 {
     public class EmployeeController : Controller
     {
-        public string Index()
+        public ViewResult Index1()
         {
-            return "Hello World";
+            return View();
         }
 
         public ViewResult Index2()
@@ -16,7 +17,14 @@ namespace Basics.Controllers
 
         public IActionResult Index3()
         {
-            return Content("sa");
+            var list=new List<Employee>()
+            {
+              new Employee(){Id=1, FirstName="Ahmet",LastName="Can",Age=20},
+              new Employee(){Id=2, FirstName="TALHA",LastName="Can",Age=20},
+              new Employee(){Id=3, FirstName="Veli",LastName="Can",Age=25},
+
+            };
+            return View ("Index3",list);
         }
     }
 }
