@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
+using Proje1.Models; 
+
 namespace Proje1.Controllers
 {
     public class CourseController:Controller
@@ -9,6 +11,12 @@ namespace Proje1.Controllers
             return View();
         }
         public IActionResult Apply()
+        {
+            return View();
+        }
+            [HttpPost]
+            [ValidateAntiForgeryToken]
+        public IActionResult Apply([FromForm] Candidate model)
         {
             return View();
         }

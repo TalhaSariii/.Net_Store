@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\proje1\\Proje1.csproj": {}
+    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\proje1\\Proje1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\proje1\\Proje1.csproj": {
+    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\proje1\\Proje1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\proje1\\Proje1.csproj",
+        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\proje1\\Proje1.csproj",
         "projectName": "Proje1",
-        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\proje1\\Proje1.csproj",
+        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\proje1\\Proje1.csproj",
         "packagesPath": "C:\\Users\\talha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\proje1\\obj\\",
+        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\proje1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

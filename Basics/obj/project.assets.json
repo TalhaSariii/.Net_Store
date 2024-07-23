@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\Basics\\Basics.csproj",
+      "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Basics\\Basics.csproj",
       "projectName": "Basics",
-      "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\Basics\\Basics.csproj",
+      "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Basics\\Basics.csproj",
       "packagesPath": "C:\\Users\\talha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\Btk.NetGit\\Basics\\obj\\",
+      "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Basics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
