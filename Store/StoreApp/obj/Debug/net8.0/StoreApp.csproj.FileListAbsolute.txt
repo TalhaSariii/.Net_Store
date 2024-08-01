@@ -24,3 +24,5 @@ C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\StoreApp\obj\Debug\ne
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\StoreApp\obj\Debug\net8.0\StoreApp.pdb
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\StoreApp\obj\Debug\net8.0\StoreApp.genruntimeconfig.cache
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\StoreApp\obj\Debug\net8.0\ref\StoreApp.dll
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\StoreApp\obj\Debug\net8.0\StoreApp.RazorAssemblyInfo.cache
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\StoreApp\obj\Debug\net8.0\StoreApp.RazorAssemblyInfo.cs
