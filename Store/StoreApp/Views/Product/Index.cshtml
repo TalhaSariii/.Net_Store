@@ -7,8 +7,10 @@
         sadece Index sayfası
     </div>
 }
-
+<div class="row">
 @foreach (Product prd in Model)
 {
-    <partial name="_ProductCard" model="@prd"/>
+    
+        <partial name="_ProductCard" model="@prd"/>
 }
+</div>
