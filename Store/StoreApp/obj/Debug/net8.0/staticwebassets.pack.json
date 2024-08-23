@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

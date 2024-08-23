@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S1y5Z2QLmOYybaBxIfFB6SV20tZfswf5MafYUHMETco=",
+  "Hash": "GeG0BJW99QDpA1KFEPu8wCey0xMybBbdR0DBqBYONtE=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Html\\Error.html"
+    },
+    {
+      "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\default.png",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/default.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.png"
     },
     {
       "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\js\\site.js",
