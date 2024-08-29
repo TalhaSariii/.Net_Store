@@ -11,8 +11,8 @@ namespace Repositories
 
         public RepositoryManager(IProductRepository productRepository, RepositoryContext context, ICategoryRepository categoryRepository)
         {
-            _productRepository = productRepository;
             _context = context;
+            _productRepository = productRepository;
             _categoryRepository = categoryRepository;
         }
 
