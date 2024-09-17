@@ -1,3 +1,6 @@
+using System.Drawing;
+using AutoMapper;
+using Entities.Dtos;
 using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
@@ -8,13 +11,17 @@ namespace Services
     {
         private readonly IRepositoryManager _manager;
 
-        public ProducManager(IRepositoryManager manager)
+        private readonly IMapper _mapper;
+
+        public ProducManager(IRepositoryManager manager, IMapper mapper)
         {
             _manager = manager;
+            _mapper = mapper;
         }
 
-        public void CreateProduct(Product product)
+        public void CreateProduct(ProductDtoForInsertion productDto)
         {
+            Product product=_mapper.Map<Product>(productDto);
             _manager.Product.Create(product);
             _manager.Save();
         }

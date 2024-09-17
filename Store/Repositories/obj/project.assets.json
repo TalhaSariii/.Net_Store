@@ -1235,8 +1235,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj"
+            "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj"
             }
           }
         }

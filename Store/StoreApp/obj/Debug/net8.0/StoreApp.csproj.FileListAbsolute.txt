@@ -131,3 +131,5 @@ C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\obj\Debug\ne
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\obj\Debug\net8.0\ref\StoreApp.dll
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\bin\Debug\net8.0\Services.dll
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\bin\Debug\net8.0\Services.pdb
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\store\storeapp\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\store\storeapp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

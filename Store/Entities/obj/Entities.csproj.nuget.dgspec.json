@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj": {}
+    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj": {
+    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\talha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
