@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj": {
+    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj",
+        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj",
         "projectName": "Repostries",
-        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj",
+        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj",
         "packagesPath": "C:\\Users\\talha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj": {
+    "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\talha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Services\\obj\\",
+        "outputPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +180,8 @@
               "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj": {
-                "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj"
+              "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj": {
+                "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj"
               }
             }
           }
@@ -258,11 +258,11 @@
               "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj": {
-                "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj"
+              "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj": {
+                "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj"
               },
-              "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj"
+              "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Services\\Services.csproj"
               }
             }
           }

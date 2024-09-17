@@ -10,7 +10,8 @@ namespace Services.Contracts
         Product? GetOneProduct(int id,bool trackChanges);
 
         void CreateProduct(ProductDtoForInsertion productDto);
-        void UpdateOneProduct(Product product);
-        void DeleteOneProduct(int id);
+        void UpdateOneProduct(ProductDtoForUpdate productDto);
+            void DeleteOneProduct(int id);
+        ProductDtoForUpdate GetOneProductForUpdate(int id, bool trackChanges);
     }
 }
