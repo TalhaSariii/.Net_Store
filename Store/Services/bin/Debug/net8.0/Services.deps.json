@@ -364,7 +364,10 @@
       },
       "Entities/1.0.0": {
         "runtime": {
-          "Entities.dll": {}
+          "Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Repostries/1.0.0": {
@@ -374,7 +377,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.8"
         },
         "runtime": {
-          "Repostries.dll": {}
+          "Repostries.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

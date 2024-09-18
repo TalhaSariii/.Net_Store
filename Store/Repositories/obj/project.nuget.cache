@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Qk24f6QZL4=",
+  "dgSpecHash": "oQc38D7BPqw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Repositories\\Repostries.csproj",
+  "projectFilePath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talha\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.8\\microsoft.data.sqlite.core.8.0.8.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",

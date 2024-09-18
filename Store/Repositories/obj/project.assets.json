@@ -1235,8 +1235,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\store\\Entities\\Entities.csproj"
+            "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj"
             }
           }
         }
@@ -1281,7 +1281,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
