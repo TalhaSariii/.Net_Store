@@ -1,9 +1,38 @@
+using Entities.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Services.Contracts;
 
 namespace StoreApp.Pages
 {
     public class CartModel:PageModel
     {
-        
+        private readonly IServiceManager _manager;
+
+        public CartModel(IServiceManager manager)
+        {
+            _manager = manager;
+        }
+
+        public Cart Cart { get; set; }
+
+        public string  ReturnUrl { get; set; }="/";
+
+        public void OnGet(string returnUrl)
+        {
+            ReturnUrl=returnUrl ?? "/";
+        }
+
+        public IActionResult OnPost(int productId,string returnUrl)
+        {
+            Product? product=_manager.ProductServices.GetOneProduct(productId,false);
+
+            if(product is not null)
+            {
+                Cart.AddItem(product,1);
+            }
+            return Page(); 
+        }
+
     }
 }
