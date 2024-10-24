@@ -16,7 +16,12 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
         b => b.MigrationsAssembly("StoreApp"));
 });
 builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession();
+builder.Services.AddSession(options =>
+{
+        options.Cookie.Name="StoreApp.Sessions";
+        options.IdleTimeout=TimeSpan.FromMinutes(10);
+});
+builder.Services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
