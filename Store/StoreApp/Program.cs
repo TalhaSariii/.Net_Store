@@ -31,7 +31,7 @@ builder.Services.AddScoped<IServiceManager, ServiceManager>();
 builder.Services.AddScoped<IProductService, ProducManager>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 
-builder.Services.AddSingleton<Cart>();
+builder.Services.AddScoped<Cart>();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
