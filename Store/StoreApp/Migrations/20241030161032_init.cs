@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace StoreApp.Migrations
 {
     /// <inheritdoc />
-    public partial class start : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -56,7 +56,8 @@ namespace StoreApp.Migrations
                     Price = table.Column<decimal>(type: "TEXT", nullable: false),
                     Summary = table.Column<string>(type: "TEXT", nullable: true),
                     ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
-                    CategoryId = table.Column<int>(type: "INTEGER", nullable: true)
+                    CategoryId = table.Column<int>(type: "INTEGER", nullable: true),
+                    ShowCase = table.Column<bool>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -105,14 +106,19 @@ namespace StoreApp.Migrations
 
             migrationBuilder.InsertData(
                 table: "Products",
-                columns: new[] { "ProductId", "CategoryId", "ImageUrl", "Price", "ProductName", "Summary" },
+                columns: new[] { "ProductId", "CategoryId", "ImageUrl", "Price", "ProductName", "ShowCase", "Summary" },
                 values: new object[,]
                 {
-                    { 1, 2, "/images/1.jpg", 17000m, "computer", null },
-                    { 2, 2, "/images/2.jpg", 15000m, "Keybouadr", null },
-                    { 3, 2, "/images/3.jpg", 100m, "sa", null },
-                    { 4, 1, "/images/4.jpg", 12000m, "as", null },
-                    { 5, 1, "/images/5.jpg", 11000m, "computer", null }
+                    { 1, 2, "/images/1.jpg", 17000m, "computer", false, null },
+                    { 2, 2, "/images/2.jpg", 15000m, "Keybouadr", false, null },
+                    { 3, 2, "/images/3.jpg", 100m, "sa", false, null },
+                    { 4, 1, "/images/4.jpg", 12000m, "as", false, null },
+                    { 5, 1, "/images/5.jpg", 11000m, "computer", false, null },
+                    { 6, 2, "/images/1.jpg", 7000m, "mouse", false, null },
+                    { 7, 2, "/images/2.jpg", 5000m, "book", false, null },
+                    { 8, 2, "/images/3.jpg", 100m, "NoteBook", true, null },
+                    { 9, 1, "/images/4.jpg", 1000m, "Keys", true, null },
+                    { 10, 1, "/images/5.jpg", 1000m, "Bag", true, null }
                 });
 
             migrationBuilder.CreateIndex(

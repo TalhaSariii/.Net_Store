@@ -124,6 +124,9 @@ namespace StoreApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("ShowCase")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Summary")
                         .HasColumnType("TEXT");
 
@@ -140,7 +143,8 @@ namespace StoreApp.Migrations
                             CategoryId = 2,
                             ImageUrl = "/images/1.jpg",
                             Price = 17000m,
-                            ProductName = "computer"
+                            ProductName = "computer",
+                            ShowCase = false
                         },
                         new
                         {
@@ -148,7 +152,8 @@ namespace StoreApp.Migrations
                             CategoryId = 2,
                             ImageUrl = "/images/2.jpg",
                             Price = 15000m,
-                            ProductName = "Keybouadr"
+                            ProductName = "Keybouadr",
+                            ShowCase = false
                         },
                         new
                         {
@@ -156,7 +161,8 @@ namespace StoreApp.Migrations
                             CategoryId = 2,
                             ImageUrl = "/images/3.jpg",
                             Price = 100m,
-                            ProductName = "sa"
+                            ProductName = "sa",
+                            ShowCase = false
                         },
                         new
                         {
@@ -164,7 +170,8 @@ namespace StoreApp.Migrations
                             CategoryId = 1,
                             ImageUrl = "/images/4.jpg",
                             Price = 12000m,
-                            ProductName = "as"
+                            ProductName = "as",
+                            ShowCase = false
                         },
                         new
                         {
@@ -172,7 +179,53 @@ namespace StoreApp.Migrations
                             CategoryId = 1,
                             ImageUrl = "/images/5.jpg",
                             Price = 11000m,
-                            ProductName = "computer"
+                            ProductName = "computer",
+                            ShowCase = false
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            CategoryId = 2,
+                            ImageUrl = "/images/1.jpg",
+                            Price = 7000m,
+                            ProductName = "mouse",
+                            ShowCase = false
+                        },
+                        new
+                        {
+                            ProductId = 7,
+                            CategoryId = 2,
+                            ImageUrl = "/images/2.jpg",
+                            Price = 5000m,
+                            ProductName = "book",
+                            ShowCase = false
+                        },
+                        new
+                        {
+                            ProductId = 8,
+                            CategoryId = 2,
+                            ImageUrl = "/images/3.jpg",
+                            Price = 100m,
+                            ProductName = "NoteBook",
+                            ShowCase = true
+                        },
+                        new
+                        {
+                            ProductId = 9,
+                            CategoryId = 1,
+                            ImageUrl = "/images/4.jpg",
+                            Price = 1000m,
+                            ProductName = "Keys",
+                            ShowCase = true
+                        },
+                        new
+                        {
+                            ProductId = 10,
+                            CategoryId = 1,
+                            ImageUrl = "/images/5.jpg",
+                            Price = 1000m,
+                            ProductName = "Bag",
+                            ShowCase = true
                         });
                 });
 
