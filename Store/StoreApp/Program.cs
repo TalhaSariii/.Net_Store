@@ -7,8 +7,9 @@ builder.Services.AddRazorPages();
 
 builder.Services.ConfigureDbContext(builder.Configuration);
 builder.Services.ConfigureSession();
-builder.Services.configurationRepositoryResitration();
-builder.Services.configurationServiceResitration();
+builder.Services.ConfigureRepositoryResitration();
+builder.Services.ConfigureServiceResitration();
+builder.Services.ConfigureRouting();
 
 builder.Services.AddAutoMapper(typeof(Program));
 

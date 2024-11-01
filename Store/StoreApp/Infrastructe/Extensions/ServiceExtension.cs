@@ -32,14 +32,14 @@ namespace StoreApp.Infrastructe.Extensions
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<Cart>(c=> SessionCart.GetCart(c));
         }
-        public static void configurationRepositoryResitration(this IServiceCollection services)
+        public static void ConfigureRepositoryResitration(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryManager, RepositoryManager>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
         }
-        public static void configurationServiceResitration(this IServiceCollection services)
+        public static void ConfigureServiceResitration(this IServiceCollection services)
         {
             services.AddScoped<IServiceManager, ServiceManager>();
             services.AddScoped<IProductService, ProducManager>();
@@ -47,5 +47,13 @@ namespace StoreApp.Infrastructe.Extensions
             services.AddScoped<IOrderService, OrderManager>();
         }
 
+        public static void ConfigureRouting(this IServiceCollection services)
+        {
+            services.AddRouting(options =>
+            {
+                options.LowercaseUrls=true;
+                options.AppendTrailingSlash=false;
+            });
+        }
     }
 } 
