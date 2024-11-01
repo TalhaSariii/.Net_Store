@@ -33,5 +33,6 @@ app.UseEndpoints(endpoints =>
 
 });
 app.ConfifureAndCheckMigration();
+app.ConfifureLocalization();
 
 app.Run();
