@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3n8FnaqJtxZ9LynN9vr+5lyHgEgfOmEBVyXiznuqRyA=",
+  "Hash": "l5sNiuBnRW+QV6B0olDmfnkN1r08XeQ3IgqkKMx7KsA=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\indir (3).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\istockphoto-1300845620-612x612.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/istockphoto-1300845620-612x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\istockphoto-1300845620-612x612.jpg"
     },
     {
       "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\OnePiece.jpg",

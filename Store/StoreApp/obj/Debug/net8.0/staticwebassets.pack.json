@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\images\\indir (3).jpg"
     },
     {
+      "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\istockphoto-1300845620-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1300845620-612x612.jpg"
+    },
+    {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

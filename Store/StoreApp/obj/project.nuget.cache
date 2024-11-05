@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xgZ1cnPSmXk=",
+  "dgSpecHash": "BuwdvPMF6Dk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\StoreApp.csproj",
+  "projectFilePath": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talha\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\talha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
