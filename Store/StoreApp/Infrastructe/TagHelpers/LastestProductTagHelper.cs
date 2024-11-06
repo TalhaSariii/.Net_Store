@@ -1,12 +1,17 @@
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Services.Contracts;
 
 namespace StoreApp.Infrastructe.TagHelpers
 {
+    [HtmlTargetElement("div",Attributes="products")]
     public class LastestProductTagHelper : TagHelper
     {
         private readonly IServiceManager _manager;
+
+        [HtmlAttributeName("number")]
+        public int Number { get; set; }
 
         public LastestProductTagHelper(IServiceManager manager)
         {
@@ -22,10 +27,27 @@ namespace StoreApp.Infrastructe.TagHelpers
             h6.Attributes.Add("class","lead");
 
             TagBuilder icon=new TagBuilder("i");
-            h6.Attributes.Add("class","fa fa-box text-secondary");
+            icon.Attributes.Add("class","fa fa-box text-secondary");
 
             h6.InnerHtml.AppendHtml(icon);
             h6.InnerHtml.AppendHtml("Lastest Products");
+
+            TagBuilder ul = new TagBuilder("ul");
+            var products =_manager.ProductServices.GetLastestProducts(Number,false);
+            foreach(Product product in products)
+            {
+                TagBuilder li=new TagBuilder("li");
+                TagBuilder a=new TagBuilder("a");
+                a.Attributes.Add("href",$"/product/get/{product.ProductId}");
+                a.InnerHtml.AppendHtml(product.ProductName);
+
+                li.InnerHtml.AppendHtml(a);
+                ul.InnerHtml.AppendHtml(li);
+            }   
+
+            div.InnerHtml.AppendHtml(h6);
+            div.InnerHtml.AppendHtml(ul);
+            output.Content.AppendHtml(div); 
         }
     }
 }
