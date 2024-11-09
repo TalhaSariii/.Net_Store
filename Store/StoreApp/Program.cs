@@ -36,5 +36,6 @@ app.UseEndpoints(endpoints =>
 });
 app.ConfifureAndCheckMigration();
 app.ConfifureLocalization();
+app.ConfigureDefaultAdminUser();
 
 app.Run();
