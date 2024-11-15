@@ -11,7 +11,7 @@ namespace Repositories.Config
             builder.HasData(
                 new IdentityRole(){ Name="User",NormalizedName="USER"},
                 new IdentityRole(){ Name="Editor",NormalizedName="EDITOR"},
-                new IdentityRole(){ Name="Admin",NormalizedName="ADMİN"}
+                new IdentityRole(){ Name="Admin",NormalizedName="ADMIN"}
 
             );
         }

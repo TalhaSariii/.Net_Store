@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace StoreApp.Migrations
 {
     /// <inheritdoc />
-    public partial class startIdentity : Migration
+    public partial class Inıtal : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -238,6 +238,16 @@ namespace StoreApp.Migrations
                         principalTable: "Products",
                         principalColumn: "ProductId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "03e11016-bdea-4080-b513-35a2334034de", null, "Admin", "ADMIN" },
+                    { "20658458-cfa8-4967-9bf6-64a9717606f0", null, "User", "USER" },
+                    { "55112d72-cf7a-47b1-ba6f-a73b0c873ff4", null, "Editor", "EDITOR" }
                 });
 
             migrationBuilder.InsertData(
