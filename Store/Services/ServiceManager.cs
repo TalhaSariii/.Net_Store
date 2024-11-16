@@ -9,11 +9,14 @@ namespace Services
 
         private readonly IOrderService _orderService;
 
-        public ServiceManager(IProductService prodcutService, ICategoryService categoryService, IOrderService orderService)
+        private readonly IAuthService _authService;
+
+        public ServiceManager(IProductService prodcutService, ICategoryService categoryService, IOrderService orderService, IAuthService authService)
         {
             _prodcutService = prodcutService;
             _categoryService = categoryService;
             _orderService = orderService;
+            _authService = authService;
         }
 
         public IProductService ProductServices => _prodcutService;
@@ -21,5 +24,7 @@ namespace Services
         public ICategoryService CategoryService => _categoryService;
 
         public IOrderService OrderService => _orderService;
+
+        public IAuthService AuthService => _authService;
     }
 }
