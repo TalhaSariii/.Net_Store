@@ -72,6 +72,18 @@ namespace Services
             return userDto;
         }
 
+        public async Task<IdentityResult> ResetPassword(ResetPasswordDto model)
+        {
+           var user=await GetOneUser(model.UserName);
+           if(user is not null)
+           {
+            await _userManager.RemovePasswordAsync(user);
+            var result=await _userManager.AddPasswordAsync(user,model.Password);
+            return result;
+           }
+           throw new Exception("User could not found");
+        }  
+
         public async Task Update(UserDtoForUpdate userDto)
         {
             var user = await GetOneUser(userDto.UserName);
