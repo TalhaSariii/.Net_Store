@@ -5,7 +5,7 @@ using Services.Contracts;
 namespace StoreApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class UserController :Controller
+    public class UserController : Controller
     {
         private readonly IServiceManager _manager;
 
@@ -16,35 +16,95 @@ namespace StoreApp.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var users=_manager.AuthService.GetAllUsers();
+            var users = _manager.AuthService.GetAllUsers();
             return View(users);
         }
+
         public IActionResult Create()
         {
-            return View(new UserDtoForCreation()
+            try
             {
-                Roles=new HashSet<string>(_manager
-                .AuthService
-                .Roles
-                .Select(r => r.Name)
-                .ToList())
-            });
+                return View(new UserDtoForCreation()
+                {
+                    Roles = new HashSet<string>(_manager
+                    .AuthService
+                    .Roles
+                    .Select(r => r.Name)
+                    .ToList())
+                });
+            }
+            catch (Exception ex)
+            {
+                ViewData["ErrorMessage"] = $"An error occurred: {ex.Message}";
+                return View();
+            }
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public async Task<IActionResult> Create([FromForm] UserDtoForCreation userDto)
         {
-            var result =await _manager.AuthService.CreateUser(userDto);
-            return result.Succeeded
-                ? RedirectToAction("Index")
-                :View();
+            if (!ModelState.IsValid)
+            {
+                return View(userDto);
+            }
+
+            try
+            {
+                var result = await _manager.AuthService.CreateUser(userDto);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                ModelState.AddModelError("", "User creation failed. Please try again.");
+                return View(userDto);
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"An error occurred: {ex.Message}");
+                return View(userDto);
+            }
         }
 
-        public async Task <IActionResult> Update([FromRoute(Name ="id")] string id)
+        public async Task<IActionResult> Update([FromRoute(Name = "id")] string id)
         {
-            return View();
+            try
+            {
+                var user = await _manager.AuthService.GetOneUserForUpdate(id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                return View(user);
+            }
+            catch (Exception ex)
+            {
+                ViewData["ErrorMessage"] = $"An error occurred: {ex.Message}";
+                return RedirectToAction("Index");
+            }
         }
-   }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update([FromForm] UserDtoForUpdate userDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(userDto);
+            }
+
+            try
+            {
+                await _manager.AuthService.Update(userDto);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"An error occurred: {ex.Message}");
+                return View(userDto);
+            }
+        }
+    }
 }

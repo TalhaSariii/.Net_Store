@@ -2,11 +2,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Entities.Dtos
 {
-    public record UserDtoForCreation :UserDto
+    public record UserDtoForCreation : UserDto
     {
-        [Required(ErrorMessage ="Password is requierd.")]
         [DataType(DataType.Password)]
-        public String? Password { get; init; }
-        
+        [Required(ErrorMessage = "Password is required.")]
+        [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be between 6 and 100 characters.")]
+        public string? Password { get; init; }
     }
 }

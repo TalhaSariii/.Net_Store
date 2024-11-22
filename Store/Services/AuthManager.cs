@@ -1,44 +1,45 @@
-using System.Xml.Serialization;
 using AutoMapper;
 using Entities.Dtos;
 using Microsoft.AspNetCore.Identity;
 using Services.Contracts;
-using SQLitePCL;
 
 namespace Services
 {
     public class AuthManager : IAuthService
     {
         private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly UserManager<IdentityUser>_userManager;
-
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly IMapper _mapper;
 
-        public AuthManager(RoleManager<IdentityRole> rolemanager, UserManager<IdentityUser> userManager, IMapper mapper)
+        public AuthManager(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager, IMapper mapper)
         {
-            _roleManager = rolemanager;
+            _roleManager = roleManager;
             _userManager = userManager;
             _mapper = mapper;
         }
 
-        public IEnumerable<IdentityRole> Roles =>
-            _roleManager.Roles;
+        public IEnumerable<IdentityRole> Roles => _roleManager.Roles;
 
         public async Task<IdentityResult> CreateUser(UserDtoForCreation userDto)
         {
-            var user=_mapper.Map<IdentityUser>(userDto);
-            var result=await _userManager.CreateAsync(user,userDto.Password);
-            if(!result.Succeeded)
+            var user = _mapper.Map<IdentityUser>(userDto);
+            var result = await _userManager.CreateAsync(user, userDto.Password);
+
+            if (!result.Succeeded)
             {
-                throw new Exception("User could not be created");
+                return result; // Hatalar Controller tarafından işlenecek
             }
-            if(userDto.Roles.Count>0)   
+
+            if (userDto.Roles.Any())
             {
-                var roleResult=await _userManager.AddToRolesAsync(user, userDto.Roles);
-                if(!roleResult.Succeeded)
-                    throw new Exception("SYSTEM have problems with roles.");
+                var roleResult = await _userManager.AddToRolesAsync(user, userDto.Roles);
+                if (!roleResult.Succeeded)
+                {
+                    return roleResult; // Rollerle ilgili hataları döndür
+                }
             }
-            return result;
+
+            return result; // Başarılı sonucu döndür
         }
 
         public IEnumerable<IdentityUser> GetAllUsers()
@@ -48,42 +49,61 @@ namespace Services
 
         public async Task<IdentityUser> GetOneUser(string userName)
         {
-            return await _userManager.FindByNameAsync(userName);
+            var user = await _userManager.FindByNameAsync(userName);
+            if (user == null)
+            {
+                throw new Exception($"User with username '{userName}' not found.");
+            }
+            return user;
         }
 
         public async Task<UserDtoForUpdate> GetOneUserForUpdate(string userName)
         {
-            var user= await GetOneUser(userName);
-            if(user is not null)
+            var user = await GetOneUser(userName);
+            if (user == null)
             {
-                var userDto=_mapper.Map<UserDtoForUpdate>(user);
-                userDto.Roles=new HashSet<string>(Roles.Select(r => r.Name).ToList());
-                userDto.UserRoles=new HashSet<string>(await _userManager.GetRolesAsync(user));
-                return userDto;
+                throw new Exception($"User with username '{userName}' not found.");
             }
-            throw new Exception("Errrror");
+
+            var userDto = _mapper.Map<UserDtoForUpdate>(user);
+            userDto.Roles = new HashSet<string>(Roles.Select(r => r.Name));
+            userDto.UserRoles = new HashSet<string>(await _userManager.GetRolesAsync(user));
+
+            return userDto;
         }
 
         public async Task Update(UserDtoForUpdate userDto)
         {
-            var user=await GetOneUser(userDto.UserName);
-            user.PhoneNumber=userDto.PhoneNumber;
-            user.Email=userDto.Email;
-
-            if(user is not null)
+            var user = await GetOneUser(userDto.UserName);
+            if (user == null)
             {
-                var result=await _userManager.UpdateAsync(user);
-                if(userDto.Roles.Count>0)
-                {
-                    var userRoles =await _userManager.GetRolesAsync(user);
-                    var r1=await _userManager.RemoveFromRolesAsync(user, userRoles);
-                    var r2=await _userManager.AddToRolesAsync(user,userDto.Roles);
-                }
-                   return;
+                throw new Exception($"User with username '{userDto.UserName}' not found.");
             }
-            throw new Exception("System has problem with user update.");
 
-         
+            user.PhoneNumber = userDto.PhoneNumber;
+            user.Email = userDto.Email;
+
+            var updateResult = await _userManager.UpdateAsync(user);
+            if (!updateResult.Succeeded)
+            {
+                throw new Exception("Failed to update the user.");
+            }
+
+            if (userDto.Roles.Any())
+            {
+                var currentRoles = await _userManager.GetRolesAsync(user);
+                var removeRolesResult = await _userManager.RemoveFromRolesAsync(user, currentRoles);
+                if (!removeRolesResult.Succeeded)
+                {
+                    throw new Exception("Failed to remove user roles.");
+                }
+
+                var addRolesResult = await _userManager.AddToRolesAsync(user, userDto.Roles);
+                if (!addRolesResult.Succeeded)
+                {
+                    throw new Exception("Failed to add new roles to the user.");
+                }
+            }
         }
     }
 }
