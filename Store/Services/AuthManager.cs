@@ -42,6 +42,11 @@ namespace Services
             return result; // Başarılı sonucu döndür
         }
 
+        public async Task<IdentityResult> DeleteOneUser(string userName)
+        {
+            var user =await GetOneUser(userName);
+        }
+
         public IEnumerable<IdentityUser> GetAllUsers()
         {
             return _userManager.Users.ToList();
@@ -59,63 +64,46 @@ namespace Services
 
         public async Task<UserDtoForUpdate> GetOneUserForUpdate(string userName)
         {
-            var user = await GetOneUser(userName);
-            if (user == null)
-            {
-                throw new Exception($"User with username '{userName}' not found.");
-            }
+          var user=await GetOneUser(userName);
 
-            var userDto = _mapper.Map<UserDtoForUpdate>(user);
-            userDto.Roles = new HashSet<string>(Roles.Select(r => r.Name));
-            userDto.UserRoles = new HashSet<string>(await _userManager.GetRolesAsync(user));
-
-            return userDto;
+          var userDto=_mapper.Map<UserDtoForUpdate>(user);
+          userDto.Roles=new HashSet<string>(Roles.Select(r=>r.Name).ToList());
+          userDto.UserRoles=new HashSet<string>(await _userManager.GetRolesAsync(user));
+          return userDto;
         }
 
         public async Task<IdentityResult> ResetPassword(ResetPasswordDto model)
         {
            var user=await GetOneUser(model.UserName);
-           if(user is not null)
-           {
+          
+           
             await _userManager.RemovePasswordAsync(user);
             var result=await _userManager.AddPasswordAsync(user,model.Password);
             return result;
-           }
-           throw new Exception("User could not found");
+           
+          
         }  
 
         public async Task Update(UserDtoForUpdate userDto)
         {
             var user = await GetOneUser(userDto.UserName);
-            if (user == null)
-            {
-                throw new Exception($"User with username '{userDto.UserName}' not found.");
-            }
-
             user.PhoneNumber = userDto.PhoneNumber;
             user.Email = userDto.Email;
 
-            var updateResult = await _userManager.UpdateAsync(user);
-            if (!updateResult.Succeeded)
+            var result = await _userManager.UpdateAsync(user);
+            if(userDto.Roles.Count>0)
             {
-                throw new Exception("Failed to update the user.");
+                var UserRoles=await _userManager.GetRolesAsync(user);
+                var r1=await _userManager.RemoveFromRolesAsync(user,UserRoles);
+                var r2=await _userManager.AddToRolesAsync(user,userDto.Roles);
             }
-
-            if (userDto.Roles.Any())
-            {
-                var currentRoles = await _userManager.GetRolesAsync(user);
-                var removeRolesResult = await _userManager.RemoveFromRolesAsync(user, currentRoles);
-                if (!removeRolesResult.Succeeded)
-                {
-                    throw new Exception("Failed to remove user roles.");
-                }
-
-                var addRolesResult = await _userManager.AddToRolesAsync(user, userDto.Roles);
-                if (!addRolesResult.Succeeded)
-                {
-                    throw new Exception("Failed to add new roles to the user.");
-                }
-            }
+            return;
+           
+            
         }
+
+
+       
     }
+
 }
