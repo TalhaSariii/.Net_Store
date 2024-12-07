@@ -45,6 +45,7 @@ namespace Services
         public async Task<IdentityResult> DeleteOneUser(string userName)
         {
             var user =await GetOneUser(userName);
+            return await _userManager.DeleteAsync(user);
         }
 
         public IEnumerable<IdentityUser> GetAllUsers()
