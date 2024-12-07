@@ -1,3 +1,4 @@
+using System.Net.NetworkInformation;
 using Entities.Dtos;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -84,6 +85,11 @@ namespace StoreApp.Controllers
                 }
             }
 
+            return View();
+        }
+
+        public IActionResult AccessDenied([FromQuery(Name ="ReturnUrl")] string returnUrl)
+        {
             return View();
         }
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repostries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e264d322973f2eab510604824ea18c4199e1347a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+425513df1df2b0342bf1d27cd0f45f36c96bea21")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repostries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repostries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

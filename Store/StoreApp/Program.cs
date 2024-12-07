@@ -11,6 +11,7 @@ builder.Services.ConfigureSession();
 builder.Services.ConfigureRepositoryResitration();
 builder.Services.ConfigureServiceResitration();
 builder.Services.ConfigureRouting();
+builder.Services.ConfigureApplicationCookie();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
