@@ -1,4 +1,5 @@
 using Entities.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.EntityFrameworkCore.Infrastructure;
@@ -17,7 +18,8 @@ namespace StoreApp.Controllers
             _manager = manager;
             _cart = cart;
         }
-
+        
+        [Authorize]
         public ViewResult Checkout() => View(new Order());
 
         [HttpPost]
