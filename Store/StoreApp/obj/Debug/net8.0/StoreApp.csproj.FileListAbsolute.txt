@@ -134,3 +134,6 @@ C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\bin\Debug\ne
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\store\storeapp\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\store\storeapp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\bin\Debug\net8.0\Presentation.dll
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\bin\Debug\net8.0\Presentation.pdb
+C:\Users\talha\OneDrive\Masaüstü\asp.net\BtkNetGit\Store\storeapp\obj\Debug\net8.0\StoreApp.MvcApplicationPartsAssemblyInfo.cs
