@@ -41,12 +41,20 @@
       "PackagePath": "staticwebassets\\images\\9.jpg"
     },
     {
+      "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\976b7050-2b00-44cd-8f88-fa55d85816ee.jpg",
+      "PackagePath": "staticwebassets\\images\\976b7050-2b00-44cd-8f88-fa55d85816ee.jpg"
+    },
+    {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\Bleach_TV_Series-235942666-large.jpg",
       "PackagePath": "staticwebassets\\images\\Bleach_TV_Series-235942666-large.jpg"
     },
     {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\Ekran görüntüsü 2024-09-07 221304.png",
       "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2024-09-07 221304.png"
+    },
+    {
+      "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\MV5BYzVmNmM0N2EtNTA3MS00NjE5LWFhMDMtMjZhZjlmMjE3OTUyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+      "PackagePath": "staticwebassets\\images\\MV5BYzVmNmM0N2EtNTA3MS00NjE5LWFhMDMtMjZhZjlmMjE3OTUyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
     },
     {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\OnePiece.jpg",
@@ -63,6 +71,10 @@
     {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\indir (3).jpg",
       "PackagePath": "staticwebassets\\images\\indir (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\indir.jpg",
+      "PackagePath": "staticwebassets\\images\\indir.jpg"
     },
     {
       "Id": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\istockphoto-1300845620-612x612.jpg",

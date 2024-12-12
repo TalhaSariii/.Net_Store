@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l5sNiuBnRW+QV6B0olDmfnkN1r08XeQ3IgqkKMx7KsA=",
+  "Hash": "wPqGCIuF4V+5lKb1+Pr1Gl+4oqBcIjwb96jLlW2FCkk=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\images\\9.jpg"
     },
     {
+      "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\976b7050-2b00-44cd-8f88-fa55d85816ee.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/976b7050-2b00-44cd-8f88-fa55d85816ee.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\976b7050-2b00-44cd-8f88-fa55d85816ee.jpg"
+    },
+    {
       "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\Bleach_TV_Series-235942666-large.jpg",
       "SourceId": "StoreApp",
       "SourceType": "Discovered",
@@ -302,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\images\\indir (3).jpg"
     },
     {
+      "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\indir.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/indir.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\indir.jpg"
+    },
+    {
       "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\istockphoto-1300845620-612x612.jpg",
       "SourceId": "StoreApp",
       "SourceType": "Discovered",
@@ -319,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\istockphoto-1300845620-612x612.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\MV5BYzVmNmM0N2EtNTA3MS00NjE5LWFhMDMtMjZhZjlmMjE3OTUyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/MV5BYzVmNmM0N2EtNTA3MS00NjE5LWFhMDMtMjZhZjlmMjE3OTUyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MV5BYzVmNmM0N2EtNTA3MS00NjE5LWFhMDMtMjZhZjlmMjE3OTUyXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg"
     },
     {
       "Identity": "C:\\Users\\talha\\OneDrive\\Masaüstü\\asp.net\\BtkNetGit\\Store\\storeapp\\wwwroot\\images\\OnePiece.jpg",
