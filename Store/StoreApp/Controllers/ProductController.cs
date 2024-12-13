@@ -24,7 +24,7 @@ namespace StoreApp.Controllers
 
         public IActionResult Index(ProductRequestParameters p)
         {
-          
+            ViewData["Title"]="products";
             var products= _manager.ProductServices.GetAllProductsWithDetails(p);
             var pagination=new Pagination()
             {
