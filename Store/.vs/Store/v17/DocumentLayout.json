@@ -3,39 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\pages\\complete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\pages\\complete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4C55427-0655-4DC3-9BFC-54EF2565F52A}|Repositories\\Repostries.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\repositories\\repostries.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D4C55427-0655-4DC3-9BFC-54EF2565F52A}|Repositories\\Repostries.csproj|solutionrelative:repositories\\repostries.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\storeapp\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{695A9CDF-24DE-47C7-9CE9-C12A3AB3824B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16E6542-3E3B-458F-ADC0-00CFE9C9C95C}|Entities\\Entities.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F16E6542-3E3B-458F-ADC0-00CFE9C9C95C}|Entities\\Entities.csproj|solutionrelative:entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\services\\contracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|solutionrelative:services\\contracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Migrations\\20240823145038_StartPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StoreApp\\Migrations\\20240823145038_StartPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\services\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|solutionrelative:services\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\services\\contracts\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|solutionrelative:services\\contracts\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|c:\\users\\talha\\onedrive\\masa\u00FCst\u00FC\\asp.net\\btknetgit\\store\\services\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C179DB0C-186C-4510-819E-AA4BBAC419F3}|Services\\Services.csproj|solutionrelative:services\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,118 +58,146 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALcUAAAAAAAAAADgv7kUAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-28T16:19:48.671Z",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "StoreApp\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:50.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "StoreApp\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:19:11.415Z",
+              "Title": "Complete.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\Complete.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Pages\\Complete.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\Complete.cshtml",
+              "RelativeToolTip": "StoreApp\\Pages\\Complete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:47.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "StoreApp\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:19:00.708Z",
+              "DocumentIndex": 2,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\Cart.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Pages\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\Cart.cshtml",
+              "RelativeToolTip": "StoreApp\\Pages\\Cart.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:46.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "StoreApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "StoreApp\\Pages\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:18:59.354Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:46.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "StoreApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:18:56.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Services.csproj",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj",
-              "RelativeDocumentMoniker": "Services\\Services.csproj",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Services.csproj",
-              "RelativeToolTip": "Services\\Services.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-27T16:21:54.941Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:42.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Repostries.csproj",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj",
-              "RelativeDocumentMoniker": "Repositories\\Repostries.csproj",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Repositories\\Repostries.csproj",
-              "RelativeToolTip": "Repositories\\Repostries.csproj",
+              "Title": "Get.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Get.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Product\\Get.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:40.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Order\\Checkout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-27T16:21:50.898Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T22:22:36.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Entities.csproj",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj",
-              "RelativeDocumentMoniker": "Entities\\Entities.csproj",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Entities\\Entities.csproj",
-              "RelativeToolTip": "Entities\\Entities.csproj",
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Contracts\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Contracts\\IOrderService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-27T16:21:45.821Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:21:48.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20240823145038_StartPoint.cs",
-              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Migrations\\20240823145038_StartPoint.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Migrations\\20240823145038_StartPoint.cs",
-              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\StoreApp\\Migrations\\20240823145038_StartPoint.cs",
-              "RelativeToolTip": "StoreApp\\Migrations\\20240823145038_StartPoint.cs",
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Contracts\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Contracts\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\Contracts\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T18:19:40.458Z"
+              "WhenOpened": "2025-03-21T22:21:47.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Contracts\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\Contracts\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:21:46.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\talha\\OneDrive\\Masa\u00FCst\u00FC\\asp.net\\BtkNetGit\\Store\\Services\\CategoryManager.cs",
+              "RelativeToolTip": "Services\\CategoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:21:43.663Z",
+              "EditorCaption": ""
             }
           ]
         }
